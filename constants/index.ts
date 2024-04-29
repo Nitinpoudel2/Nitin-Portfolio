@@ -83,15 +83,18 @@ export const Skill_data = [
   export const Socials = [
     {
       name: "Discord",
-      src: "/instagram.svg",
+      src: "/discord.svg",
+      urls: ["https://facebook.com/your_facebook_profile"]
     },
     {
       name: "Facebook",
       src: "/facebook.svg",
+      urls: ["https://facebook.com/your_facebook_profile"]
     },
     {
-      name: "Instagram",
-      src: "/discord.svg",
+      name: "Github",
+      src: "gitwhite.png",
+      urls: ["https://github.com/Nitinpoudel2"]
     },
   ];
   

@@ -28,10 +28,13 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.5)}
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
-            <span>
-          Providing
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"> the best </span>
-          project experience
+          <span>
+            Providing
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+              {" "}
+              the best{" "}
+            </span>
+            project experience
           </span>
         </motion.div>
         <motion.p
@@ -41,10 +44,11 @@ const HeroContent = () => {
           I&apos;m a Full Stack Developer with experience in Website, Mobile,
           and Software Development. Checkout my projects and skills
         </motion.p>
-
+    
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          
         >
           <a href='https://drive.google.com/file/d/1Xobg8YfBlR2Uqe10AsbsDOSQUtzJnLNN/view?usp=drive_link'>
           Download CV! </a>
@@ -54,12 +58,12 @@ const HeroContent = () => {
         variants={slideInFromRight(0.8)}
         className="w-full h-full flex justify-center items-center"
       >
-       <img 
-       src="/mainIconsDark.svg"
-       alt="work icons"
-       height={650}
-       width={650}
-       />
+        <img
+          src="/mainIconsDark.svg"
+          alt="work icons"
+          height={650}
+          width={650}
+        />
       </motion.div>
     </motion.div>
   );
