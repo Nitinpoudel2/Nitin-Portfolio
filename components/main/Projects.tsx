@@ -13,11 +13,13 @@ const Projects = () => {
             title='Modern Next.js Portfolio'
             description="Made using Javascript, TailwindCSS and React.JS"
             />
+            
             <ProjectCard 
             src='./Chess.png'
             title='Interactive Website Cards'
             description="Chess game built with Python and deployed in Azure Cloud using APIs"
             />
+            
             <ProjectCard 
             src='./SpaceWebsite.png'
             title='Space Themed Website'
