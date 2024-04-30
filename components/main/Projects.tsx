@@ -9,21 +9,21 @@ const Projects = () => {
         </h1>
         <div className='h-full w-full flex flex-col md:flex-row gap-10 px-10'>
             <ProjectCard 
-            src='/NextWebsite.png'
+            src='./NextWebsite.png'
             title='Modern Next.js Portfolio'
             description="Made using Javascript, TailwindCSS and React.JS"
             />
 
 
             <ProjectCard 
-            src='/Chess.png'
+            src='./Chess.png'
             title='Interactive Website Cards'
             description="Chess game built with Python and deployed in Azure Cloud using APIs"
             />
 
 
             <ProjectCard 
-            src='/SpaceWebsite.png'
+            src='./SpaceWebsite.png'
             title='Space Themed Website'
             description="Made using Javascript, TailwindCSS and React.JS"
             />
