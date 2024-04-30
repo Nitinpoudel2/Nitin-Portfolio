@@ -13,19 +13,11 @@ const Projects = () => {
             title='Modern Next.js Portfolio'
             description="Made using Javascript, TailwindCSS and React.JS"
             />
-
-<Image
-    src={`./${src}`}
-    alt='Project Image'
-    width={200} // Adjust the width as needed
-    height={150} // Adjust the height as needed
-/>            <ProjectCard 
+            <ProjectCard 
             src='./Chess.png'
             title='Interactive Website Cards'
             description="Chess game built with Python and deployed in Azure Cloud using APIs"
             />
-
-
             <ProjectCard 
             src='./SpaceWebsite.png'
             title='Space Themed Website'
