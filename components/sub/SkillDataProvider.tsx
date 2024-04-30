@@ -40,6 +40,6 @@ const SkillDataProvider = ({ src, width, height, index} : Props) => {
         </motion.div>
         
     )
-}
+} 
 
 export default SkillDataProvider;
