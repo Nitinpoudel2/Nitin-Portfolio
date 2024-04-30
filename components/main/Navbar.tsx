@@ -9,7 +9,7 @@ const Navbar = () => {
           href="#about-me"
           className="h-auto w-auto flex flex-row items-center"
         >
-          <img
+          <img 
             src="./NavLogo.png"
             alt="logo"
             width={70}
