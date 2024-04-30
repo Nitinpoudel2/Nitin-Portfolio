@@ -15,7 +15,7 @@ const Projects = () => {
             />
             
             <ProjectCard 
-            src='./Chess.png'
+            src='./shoemap.png'
             title='Interactive Website Cards'
             description="Chess game built with Python and deployed in Azure Cloud using APIs"
             />
